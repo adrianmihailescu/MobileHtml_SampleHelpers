@@ -1,0 +1,8 @@
+C:\Documents and Settings\adrian\Desktop\TTSFeaturesOfSAPI\Text2Speech\Text2Speech\obj\Debug\Text2Speech.exe
+C:\Documents and Settings\adrian\Desktop\TTSFeaturesOfSAPI\Text2Speech\Text2Speech\obj\Debug\Text2Speech.pdb
+C:\Documents and Settings\adrian\Desktop\TTSFeaturesOfSAPI\Text2Speech\Text2Speech\bin\Debug\Text2Speech.exe
+C:\Documents and Settings\adrian\Desktop\TTSFeaturesOfSAPI\Text2Speech\Text2Speech\bin\Debug\Text2Speech.pdb
+C:\Documents and Settings\adrian\Desktop\TTSFeaturesOfSAPI\Text2Speech\Text2Speech\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\adrian\Desktop\TTSFeaturesOfSAPI\Text2Speech\Text2Speech\obj\Debug\Text2Speech.Form1.resources
+C:\Documents and Settings\adrian\Desktop\TTSFeaturesOfSAPI\Text2Speech\Text2Speech\obj\Debug\Text2Speech.Properties.Resources.resources
+C:\Documents and Settings\adrian\Desktop\TTSFeaturesOfSAPI\Text2Speech\Text2Speech\obj\Debug\Text2Speech.csproj.GenerateResource.Cache

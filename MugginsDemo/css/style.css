@@ -1,0 +1,84 @@
+body
+{
+}
+
+img
+{
+	border: 0px;
+}
+
+td
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.radioMugginsPreviews
+{
+	border: solid 1px brown;
+}
+
+
+.headerMessage
+{
+	color: brown;
+	font-weight: bold;
+	border-bottom: solid 1px brown;
+}
+
+.headerMessageNoLine
+{
+	color: brown;
+	font-weight: bold;
+}
+
+.submitButton
+{
+	color: white;
+	font-weight:normal;
+	background-color: Maroon;
+}
+
+.setupPageTable
+{
+	border: 0px;
+}
+
+.setup1Table
+{
+	border: solid 1px brown;
+}
+
+.setup1TableNoBorder
+{
+	border: 0px;
+}
+
+.setup1Table td
+{
+	color: brown;
+	font-weight: bold;
+	text-align: left;
+}
+
+.setup1TableNoBorder td
+{
+	color: brown;
+	font-weight: bold;
+	text-align: left;
+}
+
+.setup1Link
+{
+	color: brown;
+	font-weight: normal;
+	text-align: left;
+}
+
+.selectItemList
+{
+	color: brown;
+	font-weight: normal;
+	text-align: left;
+	border: solid 1px brown;
+}

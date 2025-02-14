@@ -1,0 +1,559 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{00B8D395-B6C1-46AD-94C6-F42E718CB83D}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "TextOnImage"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "TextOnImage"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "SpeechLib"
+                    Guid = "{C866CA3A-32F7-11D2-9602-00C04F8EE628}"
+                    VersionMajor = "5"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "testpage.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "testpage.aspx.cs"
+                    DependentUpon = "testpage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "testpage.aspx.resx"
+                    DependentUpon = "testpage.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\error.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\information.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\warning.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\a.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\b.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\c.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\d.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\e.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\f.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\g.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\h.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\i.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\j.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\k.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\l.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\m.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\n.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\o.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\p.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\q.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\r.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\s.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\t.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\u.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\v.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\w.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\x.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\y.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\blue\z.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\A.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\B.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\C.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\D.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\E.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\F.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\G.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\H.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\I.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\J.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\K.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\L.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\M.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\N.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\O.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\P.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\Q.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\R.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\S.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\T.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\U.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\V.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\W.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\X.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\Y.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\letters\fancy\Z.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tools\tools.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tools\imagetools\AnimatedGifEncoder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tools\imagetools\Components.csproj"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tools\imagetools\Components.csproj.user"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tools\imagetools\Gif.resharperoptions"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\GifDecoder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tools\imagetools\LZWEncoder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tools\imagetools\NeuQuant.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\__cachecheck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\IModuleManager\__cachecheck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\IPersistenceManager\__cachecheck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\IPersistenceManager\0"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\__cachecheck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\14"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\15"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\16"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\17"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\18"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\19"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\20"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\21"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\22"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\23"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\24"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\25"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\SymbolCache\26"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\WordIndex\__cachecheck"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\WordIndex\19"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\WordIndex\21"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\WordIndex\22"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\WordIndex\23"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\_ReSharper.Gif\WordIndex\24"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "tools\imagetools\bin\Debug\Gif.Components.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tools\imagetools\bin\Debug\Gif.Components.pdb"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tools\imagetools\obj\Components.csproj.FileListAbsolute.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tools\imagetools\obj\Debug\Gif.Components.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tools\imagetools\obj\Debug\Gif.Components.pdb"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "tools\imagetools\obj\Debug\TempPE\" />
+                <File
+                    RelPath = "usercontrols\diskbrowser\diskbrowser.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "usercontrols\diskbrowser\diskbrowser.ascx.cs"
+                    DependentUpon = "diskbrowser.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "usercontrols\diskbrowser\diskbrowser.ascx.resx"
+                    DependentUpon = "diskbrowser.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "xml\Config.xml"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

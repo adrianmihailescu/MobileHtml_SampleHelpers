@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigSite>
+  <Alerts>
+    <Alert value="cartoon" name="cartoon" color="Blue" />
+    <Alert value="manga" name="manga" color="Black" />
+    <Alert value="kids" name="kids" color="Green" />
+    <Alert value="heroes" name="heroes" color="Red" />
+    <Alert value="test" name="test" color="Brown" />
+    <Alert value="pekes" name="pekes" color="Aqua" />
+    <Alert value="super" name="super" color="DarkMagenta" />
+  </Alerts>
+</ConfigSite>

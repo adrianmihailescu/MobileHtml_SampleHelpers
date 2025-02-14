@@ -1,0 +1,13 @@
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\TTS.exe
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\TTS.xml
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\TTS.pdb
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\bin\Debug\TTS.exe
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\bin\Debug\TTS.pdb
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\bin\Debug\TTS.xml
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\bin\Debug\Interop.SpeechLib.dll
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\Interop.SpeechLib.dll
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\TTS.vbproj.ResolveComReference.cache
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\TTS.Form1.resources
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\TTS.Resources.resources
+C:\Documents and Settings\adrian\Desktop\TTS\TTS\obj\Debug\TTS.vbproj.GenerateResource.Cache

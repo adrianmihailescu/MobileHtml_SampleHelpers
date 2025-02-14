@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigSite>
+  <FtpRootDirectory value="Adrian_Mihailescu" />
+  <AlertAlreadyExists value="Alert folder already exists." />
+  <SelectFilesToUpload value="Please select files to upload !" />
+  <NoFileHaveBeenUploaded value="No file have been uploaded !" />
+  <HideUploadReport value="Hide upload report" />
+  <ShowUploadReport value="Show upload report" />
+  <FileAlreadyInList value="This file is already in list. Select another !" />
+  <NotConnectedToAnyServer value="Not connected to any server !" />
+  <CouldNotConnectToServer value="could not connect to server." />
+  <MustBeConnectedToServer value="Must be connected to a server !" />
+  <HideResults value="Hide results" />
+  <ShowResults value="Show results" />
+  <TemporaryDownloadsFolder value="~\temp_downloads" />
+  <TemporaryUploadsFolder value="~\temp" />
+  <Notifications>
+    <Notify name="Adrian Mihailescu" value="a.mihailescu@ag.com" />
+  </Notifications>
+  <SmtpServer value="smtp.ines.ro" />
+  <SendMailFromUser value="web_application_ftp_transfer@test.com" />
+  <MailNotifyNewFileUploaded value="New alert has been uploaded on the server" />
+  <VARSIID_HEADER value="VARSIID" />
+  <VARSIID_TXT value="sample text for VARSIID" />
+  <VARSIIMG1 value="VARSIIMG1" />
+  <VARSITXT1 value="VARSITXT1" />
+  <VARSIIMG2 value="VARSIIMG2" />
+  <VARSITXT2_HEADER value="VARSITXT2" />
+  <VARSITXT2_TXT value="sample text for VARSITXT2" />
+  <VARSILOGO_HEADER value="VARSILOGO" />
+  <VARSILOGO_IMG value="images/kiwee_logo.jpg" />
+</ConfigSite>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<ConfigSite>
+  <InstructionsText english="Welcome to the Incredible World of Avatars Vodafone Live! Create your DIGITAL YO! Vístelo, tíñelo, tatuales pon or accessories that you want your YO DIGITAL. How do you feel today? Goat?, Are Sad? Ligon or Are you willing to give everything? ! Every day you can create, update and renew your Avatar! &lt;br /&gt; &lt;br /&gt; Just have to customize each option and in the end you download your image. YOUR DIGITAL YO!" spanish="¡Bienvenido al Increíble Mundo de los Avatares de Vodafone Live! Créate tu YO DIGITAL! Vístelo, tíñelo, tatúalo o pon los accesorios que tu quieras a tu YO DIGITAL. ¿Cómo te sientes hoy?¿Cabreado?, ¿Triste? o ¿Estás ligón dispuesto a darlo todo? ¡!!Cada día podrás crear, actualizar y renovar tu Avatar!!!&lt;br /&gt;&lt;br /&gt;Sólo tienes que personalizar cada una de las opciones y al final te descargarás tu imagen. ¡¡¡TU YO DIGITAL!!!!" italian="Benvenuti al mondo di incredibile Avatar Vodafone Live! Crea il tuo DIGITALE YO! Vístelo, tíñelo, tatuales pon o accessori che volete che il vostro YO DIGITALE. Come si sente oggi? Capra?, Sono triste? Ligon o siete disposti a dare tutto? ! Ogni giorno è possibile creare, aggiornare e rinnovare il vostro Avatar! &lt;br /&gt;&lt;br /&gt;Solo per personalizzare ogni opzione e alla fine si scarica l'immagine. Il tuo digitali yo!" />
+  <DefaultSelectBackground english="Please select your background" spanish="1er Paso - Por favor selecciona tu Fondo" italian="1º Passo - Seleziona il tuo sfondo" />
+  <DefaultSelectBackgroundTitle english="your background" spanish="selecciona tu fondo" italian="seleziona il tuo sfondo" />
+  <Setup1InstructionsText english="instructions" spanish="instrucciones" italian="istruzioni" />
+  <Setup1Instructions english="&lt;img src=&quot;images/information_icon.jpg&quot; /&gt;instructions" spanish="&lt;img src=&quot;images/information_icon.jpg&quot; /&gt;instrucciones" italian="&lt;img src=&quot;images/information_icon.jpg&quot; /&gt;istruzioni" />
+  <Setup1Back english="back" spanish="volver" italian="indietro" />
+  <Setup1Boy english="boy" spanish="hombre" italian="uomo" />
+  <Setup1Girl english="girl" spanish="mujer" italian="donna" />
+  <Setup1SkinBlack english="black" spanish="negro" italian="nera" />
+  <Setup1SkinMulato english="mulato" spanish="moreno" italian="mulatta" />
+  <Setup1SkinWhite english="white" spanish="blanco" italian="bianca" />
+  <Setup1EyeBlue english="blue" spanish="azul" italian="azzurro" />
+  <Setup1EyeGreen english="green" spanish="verde" italian="verde" />
+  <Setup1EyeLightBrown english="light brown" spanish="marrón claro" italian="marrone chiaro" />
+  <Setup1EyeDarkBrown english="brown" spanish="marrón oscuro" italian="marrone scuro" />
+  <Setup1CharacterType english="character's type" spanish="tipo de carácter" italian="tipo di personaggio" />
+  <Setup1CharacterDetails english="Character's details : type" spanish="2º Paso - Tipo de Personaje" italian="2º Passo - Tipo di Personaggio" />
+  <Setup1CharacterSize english="Size:" spanish="Tamaño:" italian="Dimensione:" />
+  <Setup1CharacterSex english="Sex:" spanish="Sexo:" italian="Sesso:" />
+  <Setup1CharacterSkin english="Skin:" spanish="Piel:" italian="Pelle:" />
+  <Setup1CharacterEyesColor english="Eyes color" spanish="Color de ojos" italian="Colore degli occhi" />
+  <Setup1BackToPreviousStep english="Back to previous step" spanish="Volver al paso anterior" italian="Torno al passo precedente" />
+  <Setup1SubmitChoice english="Submit" spanish="Siguiente paso" italian="Passo successivo" />
+  <Setup2CharacterCool english="cool" spanish="quay" italian="figo" />
+  <Setup2CharacterFlirt english="flirt" spanish="ligón" italian="amoreggiato" />
+  <Setup2CharacterFurious english="furious" spanish="enfadado" italian="arrabiato" />
+  <Setup2CharacterAngry english="angry" spanish="enfadada" italian="arrabiata" />
+  <Setup2CharacterHappyB english="happy" spanish="contento" italian="felice" />
+  <Setup2CharacterHappyG english="happy" spanish="contenta" italian="felice" />
+  <Setup2CharacterFun english="fun" spanish="divertida" italian="divertente" />
+  <Setup2CharacterSexy english="sexy" spanish="sexy" italian="sexy" />
+  <Setup2CharacterStandard english="standard" spanish="normal" italian="normale" />
+  <Setup2CharacterDetails english="Character's details : dressing and accessories" spanish="3er Paso - Ropa y Accesorios" italian="3º Passo - Vestiti e accessori" />
+  <Setup2Character english="Character:" spanish="Actitud:" italian="Atteggiamento:" />
+  <Setup2ShoesAllStars english="all stars" spanish="all stars" italian=" all stars" />
+  <Setup2ShoesClassical english="classical" spanish="zapatos" italian="mocassini" />
+  <Setup2ShoesCamper english="camper" spanish="botas" italian="scarponi" />
+  <Setup2ShoesSport english="sport" spanish="zapatillas" italian="sportive" />
+  <Setup2TrousersArmy english="army" spanish="camuflaje" italian="camouflage" />
+  <Setup2TrousersBrown english="brown" spanish="de traje" italian="da costume" />
+  <Setup2TrousersJeans english="jeans" spanish="vaqueros" italian="jeans" />
+  <Setup2TrousersPleated english="pleated" spanish="de pinzas" italian="con pieghe" />
+  <Setup2TrousersSport english="sport" spanish="chándal" italian="sport" />
+  <Setup2ClothesEveningGown english="evening gown" spanish="vestido noche" italian="abito da sera" />
+  <Setup2ClothesTop english="top" spanish="superior" italian="il top" />
+  <Setup2ClothesTankTop english="tank top" spanish="bustino arriba" italian="bustino top" />
+  <Setup2ClothesWaistCoat english="waist coat" spanish="gilet" italian="gilet" />
+  <Setup2ClothesCoat english="coat" spanish="chaqueta" italian="giacca" />
+  <Setup2ClothesShirt english="shirt" spanish="camisa" italian="camicia" />
+  <Setup2ClothesSweatShirt english="sweatshirt" spanish="sudadera con capucha" italian="felpa" />
+  <Setup2ClothesTShirt english="tshirt" spanish="camiseta" italian="maglietta" />
+  <Setup2GirlTrousersBellJeans english="bell-jeans" spanish="vaqueros campana" italian="bell jeans" />
+  <Setup2GirlTrousersLeggins english="leggins" spanish="leggins" italian="leggins" />
+  <Setup2GirlTrousersMiniLeggins english="mini-leggins" spanish="mini falda" italian="mini gonna" />
+  <Setup2GirlTrousersSkinnyJeans english="skinny-jeans" spanish="apretados" italian="jeans stretti" />
+  <Setup2GirlShoesBallerina english="ballerina" spanish="bailarina" italian="ballerine" />
+  <Setup2GirlShoesBeachSlippers english="beach slippers" spanish="chanclas" italian="sandali da mare " />
+  <Setup2GirlShoesBeachBooties english="booties" spanish="botines" italian="stivaletti" />
+  <Setup2GirlShoesHighHeels english="high heels" spanish="zapatos tacón" italian="tacchi alti" />
+  <Setup2GirlAccessoriesBangle english="bangle" spanish="brazalete" italian="braccialetto" />
+  <Setup2GirlAccessoriesBeachBag english="beach bag" spanish="bolso de playa" italian="borsa da spiaggia" />
+  <Setup2GirlAccessoriesCap english="cap" spanish="gorra" italian="cappello" />
+  <Setup2GirlAccessoriesHairPin english="hair pin" spanish="prendedor" italian="forcelle" />
+  <Setup2GirlAccessoriesPinkScarf english="pink scarf" spanish="bufanda" italian="sciarpa rosa" />
+  <Setup2GirlAccessoriesHeadBand english="head band" spanish="pañuelo cabeza" italian="sciarpa sulla testa" />
+  <Setup2GirlAccessoriesNeckCross english="neck cross" spanish="colgante de cruz" italian="pendente a croce" />
+  <Setup2GirlAccessoriesNeckHeart english="neck heart" spanish="colgante de corazón" italian="pendente a cuore" />
+  <Setup2GirlAccessoriesPalestinaScarf english="palestina scarf" spanish="palestino" italian="sciarpa palestinese" />
+  <Setup2GirlAccessoriesHandBag english="hand bag" spanish="bolso" italian="borsetta" />
+  <Setup2GirlAccessoriesPurse english="purse" spanish="bolso de noche" italian="borsa da sera" />
+  <Setup2GirlAccessoriesShoulderBagBlue english="purse" spanish="bolso azul lateral" italian="borsa a tracolla azzurra" />
+  <Setup2AccessoryKeys english="keys" spanish="llavero" italian="chiavi" />
+  <Setup2AccessoryEarPiece english="ear piece" spanish="cascos DJ" italian="caschi DJ" />
+  <Setup2AccessoryLaptopBag english="laptop bag" spanish="bolsa de portatil" italian="borsa per computer portatile" />
+  <Setup2AccessoryShoulderBag english="shoulder bag" spanish="bolsito" italian="borsa a tracolla" />
+  <Setup2AccessoryCap english="cap" spanish="gora" italian="cappello" />
+  <Setup2Glasses english="glasses" spanish="gafas" italian="occhiali" />
+  <Setup2SunGlasses english="sun glasses" spanish="gafas de sol" italian="occhiali da sole" />
+  <Setup2GlassesSport english="glassessport" spanish="gafas de espejo" italian="occhiali sportivi" />
+  <Setup2NoGlasses english="no glasses" spanish="sin gafas" italian="senza occhiali" />
+  <Setup2GirlGlassesBlue english="blue sun glasses" spanish="gafas de sol azul" italian="occhiali da sole blu" />
+  <Setup2GirlGlassesOrange english="orange sun glasses" spanish="gafas de sol naranja" italian="occhiali da sole arancioni" />
+  <Setup2GirlGlassesDark english="dark sun glasses" spanish="gafas de sol oscuros" italian="occhiali da sole scuri" />
+  <Setup2GirlGlassesNo english="no glasses" spanish="sin gafas" italian="senza occhiali" />  
+  <Setup2HairTypeDread english="dread" spanish="rizado" italian="rasta" />
+  <Setup2HairTypeLong english="long" spanish="largo" italian="lunghi" />
+  <Setup2HairTypePosh english="posh" spanish="corto con flequillo" italian="corti ciuffo laterale" />
+  <Setup2HairTypeSoldier english="soldier" spanish="rapado" italian="a spazzola" />
+  <Setup2HairTypeSpiky english="spiky" spanish="de punta" italian="arruffati" />
+  <Setup2HairTypeCurly english="curly" spanish="largo ondulado" italian="lunghi ricci" />
+  <Setup2HairTypeFlat english="flat" spanish="largo liso" italian="lunghi lisci" />
+  <Setup2HairTypeFringe english="fringe" spanish="largo con flequillo" italian="lunghi e frangetta" />
+  <Setup2HairTypeMedium english="medium" spanish="media melena" italian="lisci medi" />
+  <Setup2HairTypeShort english="short" spanish="corto" italian="corti" />
+  <Setup2HairColorLightBrown english="light brown" spanish="marrón claro" italian="castano chiari" />
+  <Setup2HairColorDarkBrown english="brown" spanish="marrón oscuro" italian="castano scuri" />
+  <Setup2HairColorBlond english="blond" spanish="rubio" italian="biondi" />
+  <Setup2HairColorBlack english="black" spanish="negro" italian="neri" />
+  <Setup2HairColorRed english="red" spanish="rojo" italian="rossi" />
+  <Setup2HairColorViolet english="violet" spanish="violeta" italian="viola" />
+  <Setup2Hair english="Hair:" spanish="Pelo:" italian="Capelli:" />
+  <Setup2Glasses english="Glasses:" spanish="Gafas:" italian="Occhiali" />
+  <Setup2Accessories english="Accessories:" spanish="Accesorios:" italian="Accessori:" />
+  <Setup2Clothes english="Clothes:" spanish="Ropa:" italian="Vestiti:" />
+  <Setup2Trousers english="Trousers:" spanish="Pantalones:" italian="Pantaloni:" />
+  <Setup2Shoes english="Shoes:" spanish="Zapatos:" italian="Scarpe:" />
+  <Setup2BackToPreviousStep english="Back to previous step" spanish="Volver al paso anterior" italian="Torno al passo precedente" />
+  <Setup2SubmitChoice english="Submit" spanish="Siguiente paso" italian="Passo successivo" />
+  <Setup2Boys english="Boys" spanish="Muchachos" italian="Ragazzi" />
+  <Setup2Girls english="Girls" spanish="Niñas" italian="Ragazze" />
+</ConfigSite>

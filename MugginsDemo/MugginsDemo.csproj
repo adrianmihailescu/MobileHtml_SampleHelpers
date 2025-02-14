@@ -1,0 +1,4297 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{B5F94652-7E0D-4800-9F6C-5D5F49A1343C}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "MugginsDemo"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "MugginsDemo"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "KMobile.Catalog.Services"
+                    AssemblyName = "KMobile.Catalog.Services"
+                    HintPath = "..\..\..\RELEASE\KMobile.Catalog.Services\v1.0.606.0\KMobile.Catalog.Services.dll"
+                    AssemblyFolderKey = "hklm\dn\kmobile.catalog.services"
+                />
+                <Reference
+                    Name = "System.Web.Mobile"
+                    AssemblyName = "System.Web.Mobile"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Mobile.dll"
+                />
+                <Reference
+                    Name = "KMobile.Catalog"
+                    AssemblyName = "KMobile.Catalog"
+                    HintPath = "..\..\..\RELEASE\KMobile.Catalog\v1.0.629.0\KMobile.Catalog.dll"
+                    AssemblyFolderKey = "hklm\dn\kmobile.catalog"
+                />
+                <Reference
+                    Name = "KMobile.Catalog.Presentation"
+                    AssemblyName = "KMobile.Catalog.Presentation"
+                    HintPath = "..\..\..\RELEASE\KMobile.Catalog.Presentation\v1.0.629.0\KMobile.Catalog.Presentation.dll"
+                    AssemblyFolderKey = "hklm\dn\kmobile.catalog.presentation"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "Accessibility"
+                    AssemblyName = "Accessibility"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Accessibility.dll"
+                />
+                <Reference
+                    Name = "System.Runtime.Serialization.Formatters.Soap"
+                    AssemblyName = "System.Runtime.Serialization.Formatters.Soap"
+                    HintPath = "..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Serialization.Formatters.Soap.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "instructions.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "instructions.aspx.cs"
+                    DependentUpon = "instructions.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "instructions.aspx.resx"
+                    DependentUpon = "instructions.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "setupstep1.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "setupstep1.aspx.cs"
+                    DependentUpon = "setupstep1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "setupstep1.aspx.resx"
+                    DependentUpon = "setupstep1.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "setupstep2.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "setupstep2.aspx.cs"
+                    DependentUpon = "setupstep2.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "setupstep2.aspx.resx"
+                    DependentUpon = "setupstep2.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "showpicture.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "showpicture.aspx.cs"
+                    DependentUpon = "showpicture.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "showpicture.aspx.resx"
+                    DependentUpon = "showpicture.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "testpage.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "testpage.aspx.cs"
+                    DependentUpon = "testpage.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "testpage.aspx.resx"
+                    DependentUpon = "testpage.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "css\style.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\back_arrow.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\information.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\information_icon.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\italy_flag.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\MIXED.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\spain_flag.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\uk_flag.JPG"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\ACCESSORIES\GLASSES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\ACCESSORIES\KEYS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\ACCESSORIES\SUNGLASSES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\COAT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\COAT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\COAT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\COAT\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHIRT\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHOES\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHOES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHOES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHOES\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SHOES\WHITEBLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SWEATSHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SWEATSHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SWEATSHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\SWEATSHIRT\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TROUSERS\ARMY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TROUSERS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TROUSERS\JEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TROUSERS\PLEATED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TROUSERS\SPORT.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TROUSERS\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TSHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TSHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TSHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\CLOTHES\TSHIRT\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\DREAD\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\DREAD\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\DREAD\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\DREAD\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\DREAD\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\DREAD\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\DREAD\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\LONG\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\LONG\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\LONG\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\LONG\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\LONG\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\LONG\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\POSH\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\POSH\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\POSH\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\POSH\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\POSH\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\POSH\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SHORT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SHORT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SHORT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SHORT\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SHORT\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SHORT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SHORT\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SOLDIER\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SOLDIER\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SOLDIER\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SOLDIER\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SOLDIER\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SOLDIER\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SPIKY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SPIKY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SPIKY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SPIKY\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SPIKY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SPIKY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\HAIR\SPIKY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\BROWS\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\COOL\EYES\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\BLACK\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HANDS1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\MULATO\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\266x340\SKIN\WHITE\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\ACCESSORIES\GLASSES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\ACCESSORIES\KEYS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\ACCESSORIES\SUNGLASSES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\ACCESSORIES\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\COAT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\COAT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\COAT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SHOES\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SHOES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SHOES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SHOES\WHITEBLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SWEATSHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SWEATSHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\SWEATSHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\TROUSERS\ARMY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\TROUSERS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\TROUSERS\JEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\TROUSERS\PLEATED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\TROUSERS\SPORT.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\TSHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\TSHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\CLOTHES\TSHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\DREAD\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\DREAD\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\DREAD\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\DREAD\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\DREAD\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\DREAD\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\DREAD\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\LONG\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\LONG\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\LONG\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\LONG\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\LONG\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\LONG\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\POSH\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\POSH\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\POSH\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\POSH\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\POSH\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\POSH\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SHORT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SHORT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SHORT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SHORT\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SHORT\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SHORT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SOLDIER\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SOLDIER\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SOLDIER\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SOLDIER\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SOLDIER\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SOLDIER\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SPIKY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SPIKY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SPIKY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SPIKY\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SPIKY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\HAIR\SPIKY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\BLACK\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\MULATO\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x266\SKIN\WHITE\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\ACCESSORIES\GLASSES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\ACCESSORIES\KEYS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\ACCESSORIES\SUNGLASSES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\COAT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\COAT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\COAT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SHOES\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SHOES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SHOES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SHOES\WHITEBLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SWEATSHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SWEATSHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\SWEATSHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\TROUSERS\ARMY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\TROUSERS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\TROUSERS\JEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\TROUSERS\PLEATED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\TROUSERS\SPORT.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\TSHIRT\BODY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\TSHIRT\SLEEVES1.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\CLOTHES\TSHIRT\SLEEVES2.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\DREAD\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\DREAD\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\DREAD\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\DREAD\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\DREAD\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\DREAD\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\LONG\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\LONG\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\LONG\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\LONG\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\LONG\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\LONG\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\POSH\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\POSH\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\POSH\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\POSH\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\POSH\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\POSH\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SHORT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SHORT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SHORT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SHORT\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SHORT\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SHORT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SOLDIER\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SOLDIER\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SOLDIER\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SOLDIER\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SOLDIER\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SOLDIER\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SPIKY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SPIKY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SPIKY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SPIKY\CAP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SPIKY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\HAIR\SPIKY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\BLACK\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\MULATO\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\BOY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\COOL\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FLIRT\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\FURIOUS\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\EYES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\FACE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\HANDS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\BROWS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\BROWS\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\BROWS\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\BROWS\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\BROWS\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\EYES\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\EYES\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\EYES\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\BOY\340x340\SKIN\WHITE\HAPPY\EYES\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\ACCESSORIES\ANGRY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\ACCESSORIES\FUN\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\ACCESSORIES\HAPPY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\ACCESSORIES\SEXY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\ACCESSORIES\SEXY\SCARF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\ACCESSORIES\STANDARD\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\BLOUSE\TANKTOP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\BLOUSE\TOP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\COAT\WAISTCOAT.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\DRESS\BLUEDRESS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\SHOES\BOOTIES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\SHOES\DANCERS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\SHOES\HEELS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\SHOES\SLIPPERS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\SKIRT\MINI.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\TROUSERS\BELLJEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\TROUSERS\LEGGINGS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\TROUSERS\TIGHTJEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\CLOTHES\VEST\STARVEST.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\ANGRY\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\ANGRY\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\ANGRY\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\ANGRY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\ANGRY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\FUN\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\FUN\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\FUN\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\FUN\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\FUN\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\HAPPY\HAPPY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\SEXY\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\SEXY\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\SEXY\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\SEXY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\STANDARD\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\STANDARD\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\STANDARD\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\EYES\STANDARD\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\CURLY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\CURLY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\CURLY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\CURLY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\CURLY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\CURLY\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FLAT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FLAT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FLAT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FLAT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FLAT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FRINGE\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FRINGE\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FRINGE\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FRINGE\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\BACK\FRINGE\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\CURLY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\CURLY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\CURLY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\CURLY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\CURLY\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FLAT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FLAT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FLAT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FLAT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FLAT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FRINGE\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FRINGE\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FRINGE\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FRINGE\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\FRINGE\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\MEDIUM\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\MEDIUM\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\MEDIUM\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\MEDIUM\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\MEDIUM\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\SHORT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\SHORT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\SHORT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\SHORT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\HAIR\FRONT\SHORT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\ANGRY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\ANGRY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\FUN\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\FUN\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\HAPPY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\HAPPY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\SEXY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\SEXY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\BLACK\STANDARD\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\ANGRY\ARMS\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\ANGRY\BODY\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\FUN\ARMS\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\FUN\BODY\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\HAPPY\ARMS\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\HAPPY\BODY\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\SEXY\ARMS\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\SEXY\BODY\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\MULATO\STANDARD\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\ANGRY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\ANGRY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\FUN\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\FUN\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\HAPPY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\HAPPY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\SEXY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\SEXY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\266x340\SKIN\WHITE\STANDARD\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\BANGLE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\GLASSES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\HAIRPIN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\HANDKERCHIEF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\ANGRY\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\ANGRY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\ANGRY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\FUN\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\FUN\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\FUN\SCARF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\FUN\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\HAPPY\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\HAPPY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\HAPPY\SCARF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\HAPPY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\SEXY\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\SEXY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\SEXY\SCARF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\SEXY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\STANDARD\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\STANDARD\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\ACCESSORIES\STANDARD\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\BLOUSE\TANKTOP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\BLOUSE\TOP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\COAT\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\COAT\WAISTCOAT.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\DRESS\BLUEDRESS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\SHOES\BOOTIES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\SHOES\DANCERS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\SHOES\HEELS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\SHOES\SLIPPERS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\SKIRT\MINI.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\TROUSERS\BELLJEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\TROUSERS\LEGGINGS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\TROUSERS\TIGHTJEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\CLOTHES\VEST\STARVEST.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\ANGRY\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\ANGRY\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\ANGRY\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\ANGRY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\ANGRY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\FUN\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\FUN\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\FUN\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\FUN\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\FUN\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\HAPPY\HAPPY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\SEXY\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\SEXY\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\SEXY\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\SEXY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\SEXY\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\STANDARD\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\STANDARD\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\STANDARD\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\EYES\STANDARD\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\CURLY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\CURLY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\CURLY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\CURLY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\CURLY\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FLAT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FLAT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FLAT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FLAT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FLAT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FRINGE\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FRINGE\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FRINGE\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FRINGE\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\BACK\FRINGE\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\CURLY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\CURLY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\CURLY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\CURLY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\CURLY\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FLAT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FLAT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FLAT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FLAT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FLAT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FRINGE\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FRINGE\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FRINGE\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FRINGE\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\FRINGE\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\MEDIUM\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\MEDIUM\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\MEDIUM\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\MEDIUM\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\MEDIUM\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\SHORT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\SHORT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\SHORT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\SHORT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\HAIR\FRONT\SHORT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\ANGRY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\ANGRY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\FUN\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\FUN\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\HAPPY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\HAPPY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\SEXY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\SEXY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\BLACK\STANDARD\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\ANGRY\ARMS\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\ANGRY\BODY\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\FUN\ARMS\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\FUN\BODY\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\HAPPY\ARMS\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\HAPPY\BODY\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\SEXY\ARMS\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\SEXY\BODY\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\MULATO\STANDARD\MULATO.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\ANGRY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\ANGRY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\FUN\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\FUN\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\HAPPY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\HAPPY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\SEXY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\SEXY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x266\SKIN\WHITE\STANDARD\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\BANGLE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\GLASSES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\HAIRPIN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\HANDKERCHIEF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\ANGRY\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\ANGRY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\FUN\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\FUN\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\FUN\SCARF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\HAPPY\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\HAPPY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\HAPPY\SCARF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\SEXY\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\SEXY\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\SEXY\SCARF.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\STANDARD\BLACKHANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\ACCESSORIES\STANDARD\HANDBAG.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\BLOUSE\TANKTOP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\BLOUSE\TOP.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\COAT\WAISTCOAT.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\DRESS\BLUEDRESS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\SHOES\BOOTIES.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\SHOES\DANCERS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\SHOES\HEELS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\SHOES\SLIPPERS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\SKIRT\MINI.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\TROUSERS\BELLJEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\TROUSERS\LEGGINGS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\TROUSERS\TIGHTJEANS.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\CLOTHES\VEST\STARVEST.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\ANGRY\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\ANGRY\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\ANGRY\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\ANGRY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\FUN\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\FUN\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\FUN\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\FUN\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\HAPPY\HAPPY.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\SEXY\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\SEXY\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\SEXY\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\SEXY\LBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\STANDARD\BLUE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\STANDARD\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\STANDARD\DBROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\EYES\STANDARD\GREEN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\CURLY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\CURLY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\CURLY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\CURLY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\CURLY\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FLAT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FLAT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FLAT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FLAT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FLAT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FRINGE\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FRINGE\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FRINGE\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FRINGE\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\BACK\FRINGE\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\CURLY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\CURLY\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\CURLY\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\CURLY\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\CURLY\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FLAT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FLAT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FLAT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FLAT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FLAT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FRINGE\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FRINGE\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FRINGE\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FRINGE\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\FRINGE\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\MEDIUM\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\MEDIUM\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\MEDIUM\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\MEDIUM\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\MEDIUM\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\SHORT\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\SHORT\BLOND.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\SHORT\BROWN.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\SHORT\RED.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\HAIR\FRONT\SHORT\VIOLET.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\ANGRY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\ANGRY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\FUN\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\FUN\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\HAPPY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\HAPPY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\SEXY\ARMS\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\SEXY\BODY\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\BLACK\STANDARD\BLACK.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\ANGRY\ARMS\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\ANGRY\BODY\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\FUN\ARMS\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\FUN\BODY\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\HAPPY\ARMS\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\HAPPY\BODY\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\SEXY\ARMS\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\SEXY\BODY\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\MULATO\STANDARD\MULATA.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\ANGRY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\ANGRY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\FUN\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\FUN\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\HAPPY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\HAPPY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\SEXY\ARMS\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\SEXY\BODY\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\GIRL\340x340\SKIN\WHITE\STANDARD\WHITE.png"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "tools\tools.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "xml\config.xml"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

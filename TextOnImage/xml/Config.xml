@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ConfigSite>
+	<Images>
+		<Image Type="color" FontSize="12" FontType="Arial" FontColor="Blue" FontStyle="Italic" X="20" Y="20" Angle="30" />
+		<Image Type="colorcentered" FontSize="12" FontType="Arial" FontColor="Blue" FontStyle="Italic" X="10" Y="20" Angle="45"/>
+	</Images>
+</ConfigSite>

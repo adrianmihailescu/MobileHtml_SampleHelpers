@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Text2Speech.Form1.resources
+obj\Debug\Text2Speech.Properties.Resources.resources
+obj\Debug\Text2Speech.csproj.GenerateResource.Cache
+bin\Debug\Text2Speech.exe
+bin\Debug\Text2Speech.pdb
+obj\Debug\Text2Speech.exe
+obj\Debug\Text2Speech.pdb

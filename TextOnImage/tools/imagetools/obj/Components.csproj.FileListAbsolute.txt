@@ -1,0 +1,5 @@
+C:\Documents and Settings\adrian\Desktop\NGif_src\Gif\Components\bin\Debug\Gif.Components.dll
+C:\Documents and Settings\adrian\Desktop\NGif_src\Gif\Components\bin\Debug\Gif.Components.pdb
+C:\Documents and Settings\adrian\Desktop\NGif_src\Gif\Components\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\adrian\Desktop\NGif_src\Gif\Components\obj\Debug\Gif.Components.dll
+C:\Documents and Settings\adrian\Desktop\NGif_src\Gif\Components\obj\Debug\Gif.Components.pdb

@@ -1,0 +1,13 @@
+bin\Debug\TTS.exe
+bin\Debug\TTS.pdb
+bin\Debug\TTS.xml
+bin\Debug\Interop.SpeechLib.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TTS.Form1.resources
+obj\Debug\TTS.Resources.resources
+obj\Debug\TTS.vbproj.GenerateResource.Cache
+obj\Debug\TTS.exe
+obj\Debug\TTS.xml
+obj\Debug\TTS.pdb
+obj\Debug\TTS.vbproj.ResolveComReference.cache
+obj\Debug\Interop.SpeechLib.dll
